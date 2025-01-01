@@ -123,10 +123,12 @@ try:
             continue
 
         for remaining in range(interval, 0, -1):
-            minutes, seconds = divmod(remaining, 60)
-            sys.stdout.write(f"Menunggu {minutes} menit {seconds} detik...\r")
+            hours, remainder = divmod(remaining, 3600)
+            minutes, seconds = divmod(remainder, 60)
+            sys.stdout.write(f"Menunggu {hours} jam {minutes} menit {seconds} detik...\r")
             sys.stdout.flush()
             time.sleep(1)
+            
         print("\n")
 except KeyboardInterrupt:
     print("\nScript dihentikan oleh user.")
