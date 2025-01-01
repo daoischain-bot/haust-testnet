@@ -18,7 +18,7 @@ Done all and Run with python3 bot.py
 1. To minimize a script running on a VPS without stopping it you can use **tmux**
 - sudo apt install tmux
 - tmux -S mysession
-- cd haust-sender
+- ls
 - python3 bot.py
   
 2. Detach from the screen session (without stopping the script): Press Ctrl + B, then D
