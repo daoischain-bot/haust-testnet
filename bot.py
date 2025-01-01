@@ -13,7 +13,7 @@ a1 = pyfiglet.figlet_format("DAOISCHAIN")
 print(Fore.GREEN + Style.BRIGHT + a1)
 print("--------------------------------------------------------------")
 print("Haust Network Testnet Auto Send")
-print(Fore.BLUE + Style.BRIGHT + "Telegram Channel: https://t.me/newtesnet")
+print(Fore.BLUE + Style.BRIGHT + "Telegram : https://t.me/lolercok")
 print(Fore.GREEN + Style.BRIGHT + "Donate: 0xf8a95e3ddbe6b3d31ef773378f101bcbf9fd511a")
 print("--------------------------------------------------------------")
 
