@@ -1,8 +1,8 @@
-This **Haust Network Tesnet** script can perform automatic transfers within a time range of 12 to 24 hours. Additionally, this script will also perform random token transfers with a range of token amounts that can be specified.
+This **Haust Network Tesnet** script can perform automatic transfers within a random time range. Additionally, this script will also perform random token transfers with a range of token amounts that can be specified.
 
 install > Use Python
 
-- git clone [https://github.com/daoischain-bot/story-tesnet.git](https://github.com/daoischain-bot/haust-sender.git)
+- git clone https://github.com/daoischain-bot/haust-testnet.git
 - pip install web3
 - pip install colorama
 - pip install requests
